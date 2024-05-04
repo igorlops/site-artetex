@@ -42,9 +42,31 @@
     <section class="content">
         @yield('content')
     </section>
-    <footer>
-        <h2>Footer</h2>
-    </footer>
+    <div class="container-fluid bg-dark text-light py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h3>Falar com especialista</h3>
+              <p>Conheça o nosso trabalho, agende uma reunião:</p>
+              <a href="#" class="btn btn-primary">SAIBA MAIS</a>
+            </div>
+            <div class="col-md-6">
+              <h3>Menu</h3>
+              <ul class="list-unstyled">
+                <li><a href="#">Quem Somos</a></li>
+                <li><a href="#">Tecidos</a></li>
+                <li><a href="#">Contato</a></li>
+              </ul>
+              <p>Nosso endereço:<br>Av. Imperador 666, Centro,<br>Fortaleza, CE, CEP: 60.015-050<br>Atendimento: Seg a Sex das 8h às 18:00h</p>
+              <p>Fale pelo WhatsApp<br>(85) 99707-0174</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="text-center py-3">
+        <p>© 2023 Direitos Reservados - LGPD - <a href="#">Termos de Uso</a> - <a href="#">Política de Privacidade</a></p>
+      </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
