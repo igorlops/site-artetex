@@ -65,7 +65,7 @@
       </div>
 
       <footer class="text-center py-3">
-        <p>© 2023 Direitos Reservados - LGPD - <a href="#">Termos de Uso</a> - <a href="#">Política de Privacidade</a></p>
+        <p>© 2023 Direitos Reservados - LGPD - <a href="{{route('police.termos')}}">Termos de Uso</a> - <a href="{{route('police.politica')}}">Política de Privacidade</a></p>
       </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
