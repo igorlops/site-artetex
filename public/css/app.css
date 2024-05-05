@@ -5,6 +5,113 @@
 }
 
 
-body {
 
+
+.sobre{
+    background: rgb(213, 199, 0);
+    padding: 20px;
+    padding-left: 150px;
+    color: rgb(255, 255, 252);
+}
+
+.tecidos{
+    background: rgb(213, 199, 0);
+    padding: 20px;
+    padding-left: 150px;
+    color: rgb(255, 255, 252);
+}
+
+
+
+.bg-earth {
+    background: rgb(205,182,21);
+background: linear-gradient(nulldeg, rgba(205,182,21,1) 0%, rgba(204,202,6,1) 39%, rgba(194,195,22,1) 100%);
+    color: rgb(255, 255, 255); /* Define a cor do texto para branco para garantir legibilidade */
+    padding: 20px; /* Adiciona um preenchimento para separar o texto da borda */
+
+}
+
+.container img{
+    border-radius: 10px;
+}
+
+.image img {
+    transition: transform 0.3s ease; /* Transição suave */
+}
+
+.image:hover img {
+    transform: scale(1.1); /* Aumenta a escala em 10% quando o mouse passa por cima */
+}
+
+.flex-row{
+    margin-top: 90px !important;
+    margin-bottom: 30px;
+}
+
+.flex-row h2{
+    color: rgb(204, 165, 6);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+.flex-row p{
+    width: 90%;
+
+}
+
+
+
+.flex-row .text-section h2{
+    color: rgb(255, 255, 255);
+}
+
+.tecido-pagina {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+
+}
+
+.item {
+    position: relative;
+    cursor: pointer;
+}
+
+.item img {
+    display: block;
+    width: 300px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+/* Estilos para o efeito de aumento */
+.item:hover img {
+    transform: scale(1.1);
+}
+
+/* Estilos para o efeito de sobreposição */
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    transition: opacity 0.3s ease;
+}
+
+.item:hover .overlay {
+    opacity: 1;
+}
+
+/* Estilos para o link de Fale Conosco */
+.overlay a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
 }
