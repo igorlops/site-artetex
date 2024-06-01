@@ -1,69 +1,24 @@
-@extends('layout.app')
+<div class="my-5 container">
+    <h2 class="titulo-sections text-center my-5">Qualidade e Variedade em Tecidos</h2>
+</div>
 
-@section('title-site', "Tecidos")
+<div class="tecido-pagina container my-5">
+    <x-imagens-tecidos
+        image="https://www.bellatex.com.br/wp-content/uploads/2023/10/Malha-Suede-1.png"
+        title="Título 1"
+        description="Descrição 1"
+    />
 
-@section('content')
+    <x-imagens-tecidos
+        image="https://www.bellatex.com.br/wp-content/uploads/2023/10/Alfaiataria-barvie-1.png"
+        title="Título 1"
+        description="Descrição 1"
+    />
 
+    <x-imagens-tecidos
+        image="https://www.bellatex.com.br/wp-content/uploads/2023/10/Crepe-Scuba-1.png"
+        title="Título 1"
+        description="Descrição 1"
+    />
 
-        <div  class="tecidos">
-            <h2>Tecidos</h2>
-        </div>
-
-        <div class="tecido-pagina container">
-            <div class="item" id="item1">
-                <img src="{{asset("img/tecido01.jpg")}}" alt="Imagem 1">
-                <div class="overlay">
-                    <h3>Título 1</h3>
-                    <p>Descrição 1</p>
-                    <a href="https://api.whatsapp.com/send?phone=SEUNUMERO">Fale Conosco</a>
-                </div>
-            </div>
-            <div class="item" id="item2">
-                <img src="{{asset("img/tecido02.jpg")}}" alt="Imagem 2">
-                <div class="overlay">
-                    <h3>Título 2</h3>
-                    <p>Descrição 2</p>
-                    <a href="https://api.whatsapp.com/send?phone=SEUNUMERO">Fale Conosco</a>
-                </div>
-            </div>
-            <div class="item" id="item3">
-                <img src="{{asset("img/tecido03.jpg")}}" alt="Imagem 3">
-                <div class="overlay">
-                    <h3>Título 3</h3>
-                    <p>Descrição 3</p>
-                    <a href="https://api.whatsapp.com/send?phone=SEUNUMERO">Fale Conosco</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="tecido-pagina container">
-            <div class="item" id="item1">
-                <img src="{{asset("img/tecido01.jpg")}}" alt="Imagem 1">
-                <div class="overlay">
-                    <h3>Título 1</h3>
-                    <p>Descrição 1</p>
-                    <a href="https://api.whatsapp.com/send?phone=SEUNUMERO">Fale Conosco</a>
-                </div>
-            </div>
-            <div class="item" id="item2">
-                <img src="{{asset("img/tecido02.jpg")}}" alt="Imagem 2">
-                <div class="overlay">
-                    <h3>Título 2</h3>
-                    <p>Descrição 2</p>
-                    <a href="https://api.whatsapp.com/send?phone=SEUNUMERO">Fale Conosco</a>
-                </div>
-            </div>
-            <div class="item" id="item3">
-                <img src="{{asset("img/tecido03.jpg")}}" alt="Imagem 3">
-                <div class="overlay">
-                    <h3>Título 3</h3>
-                    <p>Descrição 3</p>
-                    <a href="https://api.whatsapp.com/send?phone=SEUNUMERO">Fale Conosco</a>
-                </div>
-            </div>
-        </div>
-
-
-
-
-@endsection
+</div>

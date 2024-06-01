@@ -19,6 +19,6 @@ class ContactFormMail extends Mailable
 
     public function build()
     {
-        return $this->view('emails.contact');
+        return $this->view('emails.contact')->subject('Novo e-mail a partir do site');
     }
 }

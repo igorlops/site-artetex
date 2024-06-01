@@ -5,107 +5,35 @@
 }
 
 
-
-
-.sobre{
-    background: rgb(213, 199, 0);
-    padding: 20px;
-    padding-left: 150px;
-    color: rgb(255, 255, 252);
+/* GLOBAL */
+.titulo-sections{
+    color: #f37542;font-size:70px;font-weight:bold;
 }
 
-.tecidos{
-    background: rgb(213, 199, 0);
-    padding: 20px;
-    padding-left: 150px;
-    color: rgb(255, 255, 252);
-}
-
-
-
-.bg-earth {
-    background: rgb(205,182,21);
-background: linear-gradient(nulldeg, rgba(205,182,21,1) 0%, rgba(204,202,6,1) 39%, rgba(194,195,22,1) 100%);
-    color: rgb(255, 255, 255); /* Define a cor do texto para branco para garantir legibilidade */
-    padding: 20px; /* Adiciona um preenchimento para separar o texto da borda */
-
-}
-
-.container img{
-    border-radius: 10px;
-}
-
-.image img {
-    transition: transform 0.3s ease; /* Transição suave */
-}
-
-.image:hover img {
-    transform: scale(1.1); /* Aumenta a escala em 10% quando o mouse passa por cima */
-}
-
-.flex-row{
-    margin-top: 90px !important;
-    margin-bottom: 30px;
-}
-
-.flex-row h2{
-    color: rgb(204, 165, 6);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-
-}
-
-.flex-row p{
-    width: 90%;
-
-}
-
-
-
-.flex-row .text-section h2{
-    color: rgb(255, 255, 255);
-}
-
-.tecido-pagina {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 50vh;
-
-}
-
-.item {
-    position: relative;
-    cursor: pointer;
-}
-
-.item img {
-    display: block;
-    width: 300px;
-    height: auto;
-    transition: transform 0.3s ease;
-}
-
-/* Estilos para o efeito de aumento */
-.item:hover img {
-    transform: scale(1.1);
-}
-
-/* Estilos para o efeito de sobreposição */
 .overlay {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     opacity: 0;
+    top: 0;
+    left: 0;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
     transition: opacity 0.3s ease;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
 }
-
+.item {
+    border-radius:25px;
+}
+.item:hover img{
+    scale: .95;
+    transition: .5s;
+}
 .item:hover .overlay {
     opacity: 1;
+    scale: .95;
+    transition: .5s;
 }
 
 /* Estilos para o link de Fale Conosco */
@@ -113,5 +41,510 @@ background: linear-gradient(nulldeg, rgba(205,182,21,1) 0%, rgba(204,202,6,1) 39
     display: block;
     color: white;
     text-decoration: none;
-    margin-top: 10px;
 }
+
+
+/* GLOBAL */
+
+/* HOME */
+
+
+header,nav.navbar{
+    background: rgb(250,245,179);
+    background: -moz-linear-gradient(90deg, rgba(250,245,179,1) 0%, rgba(243,117,66,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(250,245,179,1) 0%, rgba(243,117,66,1) 100%);
+    background: linear-gradient(90deg, rgba(250,245,179,1) 0%, rgb(243, 117, 66) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#faf5b3",endColorstr="#f37542",GradientType=1);
+}
+
+nav.navbar{
+    border-bottom: 2px solid #3e3b3d!important;
+}
+
+header .text-header {
+    width: 50%!important;
+}
+
+header .text-header h1{
+    width: 100%!important;
+    font-size: 4.8em!important;
+    color: #3e3833;
+}
+
+header .text-header p {
+    font-size: 3.5em;
+}
+
+.section-imagem-header {
+    width: 45%!important;
+    position: relative;
+}
+
+.imagens-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    gap:7px;
+    position: relative;
+}
+
+.imagens-header img {
+    width: 50%;
+}
+
+/* HOME */
+
+/* SERVIÇOS */
+/* ICONES SERVICOS */
+
+.icones-servicos {
+    width: 20%;display: flex; flex-direction: column;
+}
+.icones-servicos i {
+    color: #f37542;
+}
+
+.icones-servicos .titulo-icone {
+    font-weight: bold;
+}
+
+.icones-servicos p {
+    font-size: 20px;text-align:left;
+}
+
+.icones-servicos::before {
+    content: '';
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 40px;
+    left: -10px;
+    z-index: -1;
+    opacity: .2;
+    border-radius: 50%;
+    background-color: #da9276;
+    margin: 0 auto;
+}
+.galeria-imagens-servicos {
+    display:flex;
+    justify-content:space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    text-align:center;
+    gap:1em;
+    margin-top: 2em;
+}
+
+
+
+.imagem-servico {
+    width: 25%;display: flex; flex-direction: column;text-align: center;flex-wrap: wrap;
+}
+
+.imagem-servico img{
+    width: 100%;
+}
+
+
+.imagem-servico .titulo-servicos{
+    font-weight: bold;color: #f37542;font-size:50px;
+}
+
+.imagem-servico p{
+    font-size: 20px;text-align:left;
+}
+
+
+
+/* SERVIÇOS */
+
+
+/* DIVIDER */
+
+.divider {
+    height: 50px;background-color: #f37542
+}
+
+/* SOBRE */
+.content-section-sobre {
+    gap:2%;
+}
+.quem-somos {
+    width: 49%;
+}
+
+.image-section-sobre {
+    width: 49%;
+}
+.image-section-sobre img{
+    width: 100%;
+}
+
+.text-section-sobre {
+    font-size: 1.3em;
+}
+
+.section-comentarios {
+    background-color: #f37542;
+}
+/* SOBRE */
+
+
+/* TECIDOS */
+
+.tecido-pagina{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.tecido-pagina .item {
+    width: 30%;display: flex; flex-direction: column;position: relative;flex-wrap: wrap;
+}
+.btn-tecidos {
+    background-color: #f37542;
+    color: white;
+}
+.btn-tecidos:hover {
+    background-color: #c24514;
+}
+
+.videos-novidades {
+    display:flex;
+    justify-content: space-around;
+    margin:10px 0;
+    gap: 15px;
+}
+/* TECIDOS */
+
+
+/* CONTATO */
+#section-contato {
+    background-color: #fff;
+}
+
+.btn-contato {
+    background-color: #f37542;
+    color: white;
+    font-weight: 500;
+    border: 1px solid white;
+}
+
+.btn-contato:hover {
+    background-color: #c24514;
+    color: white;
+}
+
+.container-formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.formulario-model {
+    display: flex;
+    justify-content:center;
+    margin:5px 3% 5em 3%;
+    color:white;
+    background-color: #f37542;
+    padding: 50px 30px;
+    border-radius: 20px;
+}
+
+.formulario-model form {
+    margin: 0 auto;
+    width:600px;
+    text-align:left!important;
+}
+
+/* CONTATO */
+
+
+/* HEADER */
+.icons-socials-nav a {
+    text-decoration: none;
+    color:black;
+}
+
+.icons-socials-nav a:hover {
+    transition: .5s;
+    color:white;
+}
+
+/* HEADER */
+
+
+/* RODAPE */
+
+.icons-socials a {
+    border:1px solid white;
+    border-radius:50%;
+    padding:5px 10px;
+    text-decoration: none;
+    color:white;
+}
+
+.icons-socials a:hover {
+    transition: .5s;
+    color:#f37542;
+    background-color: white;
+}
+
+
+.lista-menus-rodape {
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.item-menu-rodape {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+/* RODAPE */
+
+
+
+
+/* MEDIA QUERY */
+
+
+/* ATÉ 1400px */
+
+@media screen and (max-width: 1400px) {
+
+    /* GLOBAL */
+
+    .titulo-sections{
+        font-size:50px;
+    }
+
+    /* GLOBAL */
+
+
+    header .text-header h1{
+        width: 100%!important;
+        font-size: 3.5em!important;
+        color: #3e3833;
+    }
+
+    header .text-header p {
+        font-size: 2.5em;
+    }
+
+
+}
+@media screen and (max-width: 1200px) {
+
+    .icones-servicos .titulo-icone {
+        font-weight: bold;
+        font-size: 20px!important;
+    }
+
+    .icones-servicos p {
+        font-size: 17px;text-align:left;
+    }
+    .imagem-servico .titulo-servicos{
+        font-weight: bold;color: #f37542;font-size:35px;
+    }
+    .imagem-servico p{
+        font-size: 18px;
+    }
+
+    /* RODAPE */
+
+    .lista-menus-rodape {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .item-menu-rodape {
+        width: 30%;
+    }
+
+
+}
+
+@media screen and (max-width:991px) {
+
+    /* GLOBAL */
+
+    .titulo-sections{
+        font-size:40px;
+    }
+
+    /* GLOBAL */
+
+
+    /* HEADER */
+    header .text-header h1{
+        font-size: 2.5em!important;
+    }
+
+    header .text-header p {
+        font-size: 1.5em;
+    }
+
+    /* HEADER */
+
+
+    /* SERVICOS */
+    .icones-servicos {
+        width: 40%;
+        text-align: center;
+    }
+
+    .icones-servicos .titulo-icone {
+        font-weight: bold;
+        font-size: 17px!important;
+    }
+
+    .icones-servicos p {
+        font-size: 16px;text-align:left;
+    }
+    .imagem-servico .titulo-servicos{
+        font-weight: bold;color: #f37542;font-size:30px;
+    }
+    .imagem-servico p{
+        font-size: 16px;
+    }
+    /* SERVICOS */
+
+    /* SOBRE */
+
+    .text-section-sobre {
+        font-size: 1em;
+    }
+
+    .videos-novidades {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:10px 0;
+        gap: 15px;
+    }
+    /* SOBRE */
+
+
+    /* RODAPE */
+    .lista-menus-rodape {
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .item-menu-rodape {
+        width: 50%;
+    }
+
+
+    /* RODAPE */
+}
+
+
+@media screen and (max-width:768px) {
+    /* GLOBAL */
+
+    .titulo-sections{
+        font-size:30px;
+    }
+
+    /* GLOBAL */
+
+    /* HEADER */
+    header  .text-header {
+        width: 100%!important;
+        margin: 0 0 50px 0;
+        text-align: center;
+    }
+
+    header .section-imagem-header {
+        width: 100%!important;
+    }
+
+
+    /* HEADER */
+
+
+    .imagem-servico {
+        width: 100%;
+        padding: 0 20px;
+    }
+    .tecido-pagina{
+        flex-direction: column;
+    }
+
+    .tecido-pagina .item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    /* SOBRE */
+
+    .quem-somos {
+        width: 100%;
+    }
+
+    .image-section-sobre {
+        width: 100%;
+    }
+
+    .coments-single{
+        width: 40%;
+    }
+    /* SOBRE */
+
+    .formulario-model form {
+        width: 400px;
+    }
+
+}
+@media screen and (max-width:576px) {
+
+    .icones-servicos {
+        width: 100%;
+        padding: 0 10%;
+    }
+
+    .galeria-imagens-servicos {
+        flex-direction: column;
+        margin: 2em 0;
+    }
+
+    .coments-single{
+        width: 100%;
+    }
+
+    .videos-novidades iframe{
+        width: 300px;
+        height: 150px;
+    }
+
+    .item-menu-rodape {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .formulario-model form {
+        width: 300px;
+    }
+
+    .formulario-model {
+        margin:5px 0 5em 0;
+        padding: 20px 20px;
+        background-color: white;
+        color: #3e3b3d;
+    }
+
+    .section-novidades .col-md-5 {
+        display: none!important;
+    }
+
+
+
+}
+
+
+/* MEDIA QUERY */
+
