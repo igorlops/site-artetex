@@ -26,4 +26,14 @@
             </div>
         </div>
     </div>
+
+    <div style="background-color: #fff;">
+        <div class="container d-flex flex-column justify-content-center align-items-center">
+            <h2 class="titulo-sections text-center mb-5">Estampe agora</h2>
+            <a href="https://api.whatsapp.com/send?phone=5585988902070" class="h2" style="margin:0 auto;color: #f37542">
+                Saiba mais
+            </a>
+        </div>
+    </div>
+
 </div>
