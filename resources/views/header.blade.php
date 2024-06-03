@@ -29,7 +29,7 @@
                 <li class="nav-item">
                     <div class="gap-3 pt-2 d-flex icons-socials-nav">
                         <a href="https://www.instagram.com/artetexestamparia/"><i class="bi bi-instagram"></i></a>
-                        <a href="https://api.whatsapp.com/send?phone=+5585988902070"><i class="bi bi-whatsapp"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=5585988902070"><i class="bi bi-whatsapp"></i></a>
                         <a href="mailto:ron28ce@hotmail.com"><i class="bi bi-envelope"></i></a>
                     </div>
                 </li>
@@ -69,7 +69,7 @@
             <li class="nav-item">
                 <div class="gap-3 pt-2 d-flex icons-socials-nav">
                     <a onclick="ativaMenu()" href="https://www.instagram.com/artetexestamparia/"><i class="bi bi-instagram"></i></a>
-                    <a onclick="ativaMenu()" href="https://api.whatsapp.com/send?phone=+5585988902070"><i class="bi bi-whatsapp"></i></a>
+                    <a onclick="ativaMenu()" href="https://api.whatsapp.com/send?phone=5585988902070"><i class="bi bi-whatsapp"></i></a>
                     <a onclick="ativaMenu()" href="mailto:ron28ce@hotmail.com"><i class="bi bi-envelope"></i></a>
                 </div>
             </li>
