@@ -445,7 +445,7 @@ a.btn-custom:hover {
         z-index: 999;
     }
     .content-menu {
-        background-color: #f37542;
+        background-color: #c24514;
         color: white;
         width: 80%;
         display: flex;
@@ -453,7 +453,6 @@ a.btn-custom:hover {
         align-items: center;
         border-radius: 20px;
         padding: 20px 0;
-        opacity: .9;
         backdrop-filter: blur(100px);
     }
 
