@@ -3,8 +3,8 @@
 @section('title-site', "Termos de uso")
 
 @section('content')
-    <div class="container">
-        <h2>Termos de Uso</h2>
+    <div class="container my-5">
+        <h2 class="titulo-sections mb-5">Termos de Uso</h2>
         <p><strong>1. Termos</strong></p>
         <p>Ao acessar o site Artetex, você concorda em cumprir estes termos de serviço, todas as leis e regulamentos aplicáveis e concorda que é responsável pelo cumprimento de todas as leis locais aplicáveis. Se você não concordar com algum desses termos, está proibido de usar ou acessar este site. Os materiais contidos neste site são protegidos pelas leis de direitos autorais e marcas comerciais aplicáveis.</p>
 

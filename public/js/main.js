@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-
+    const contentVideosYoutube = document.querySelectorAll('.videos-novidades > iframe')
     const carouselContent = document.getElementById('carouselContent')
     const dadosContent = [
         {
@@ -79,13 +79,41 @@ document.addEventListener('DOMContentLoaded', function() {
     const updateCarousel = () => {
         if (window.matchMedia("(max-width: 576px)").matches) {
             carouselContent.innerHTML = generateCarouselHTML(dadosContent, 1);
+            contentVideosYoutube.forEach((video) => {
+                video.style.width = '300px'
+                video.style.height = '150px'
+            });
         } else if (window.matchMedia("(max-width: 768px)").matches) {
             carouselContent.innerHTML = generateCarouselHTML(dadosContent, 2);
+            contentVideosYoutube.forEach((video) => {
+                video.style.width = '400px'
+                video.style.height = '200px'
+            });
         } else {
             carouselContent.innerHTML = generateCarouselHTML(dadosContent, 3);
+            carouselContent.innerHTML = generateCarouselHTML(dadosContent, 2);
+            contentVideosYoutube.forEach((video) => {
+                video.style.width = '400px'
+                video.style.height = '200px'
+            });
         }
     };
 
     window.addEventListener('resize', updateCarousel);
     updateCarousel();
+
 });
+
+
+function ativaMenu() {
+    const btnMenu = document.querySelector('.btn-menu')
+    const contentMenuMobile = document.querySelector('.options-mobile')
+
+    if(contentMenuMobile.classList.contains('menu-active')) {
+        contentMenuMobile.classList.remove('menu-active')
+        btnMenu.innerHTML = `<i class="bi bi-list"></i>`
+    } else {
+        btnMenu.innerHTML = `<i class="bi bi-x-lg"></i>`
+        contentMenuMobile.classList.add('menu-active')
+    }
+}

@@ -7,7 +7,7 @@
                 <p class="h2" style="color: #f37542">
                     Somos a sua melhor escolha, na hora de estampar seja em Fortaleza ou em qualquer lugar do Brasil.
                 </p>
-                <a href="https://api.whatsapp.com/send?phone=SEUNUMERO" class="btn btn-outline-secondary btn-lg my-5" style="margin: 0 auto">
+                <a href="https://api.whatsapp.com/send?phone=85988902070" class="btn btn-custom btn-lg my-5" style="margin: 0 auto">
                     Saiba mais
                 </a>
             </div>

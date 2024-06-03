@@ -9,8 +9,8 @@
             <div class="item-menu-rodape">
                 <div class="fs-5 gap-3 d-flex icons-socials justify-content-center">
                     <a href="https://www.instagram.com/artetexestamparia/"><i class="bi bi-instagram"></i></a>
-                    <a href="https://api.whatsapp.com/send?phone=SEUNUMERO"><i class="bi bi-whatsapp"></i></a>
-                    <a href="mailto:emailteste@teste.com"><i class="bi bi-envelope"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=85988902070"><i class="bi bi-whatsapp"></i></a>
+                    <a href="mailto:ron28ce@hotmail.com"><i class="bi bi-envelope"></i></a>
                 </div>
             </div>
             <div class="item-menu-rodape">
@@ -31,7 +31,7 @@
                 <div class="d-flex flex-column">
                     <span><i class="bi bi-whatsapp"></i> Fale pelo WhatsApp:</span>
                     <a style="text-decoration: none;color: white;text-decoration: underline"
-                        href="https://api.whatsapp.com/send?phone=SEUNUMERO">(85) 99999-9999</a>
+                        href="https://api.whatsapp.com/send?phone=85988902070">(85) 99999-9999</a>
                 </div>
             </div>
         </div>

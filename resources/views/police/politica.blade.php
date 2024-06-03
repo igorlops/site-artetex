@@ -3,8 +3,8 @@
 @section('title-site', "Politica de privacidade")
 
 @section('content')
-<div class="container">
-    <h2>Política de Privacidade de Dados</h2>
+<div class="container my-5">
+    <h2 class="titulo-sections mb-5">Política de Privacidade de Dados</h2>
     <p>A Artetex se compromete com a segurança dos seus dados e mantém suas informações em absoluto sigilo!</p>
     <p>Priorizamos a privacidade e a segurança de nossos clientes durante todo o processo de navegação e compra pelo site. Todos os dados cadastrados, como nome, endereço e CPF, nunca serão comercializados ou trocados. Alguns dados necessários para empresas de logística e meios de pagamento realizarem a cobrança e envio de seu pedido serão divulgados para terceiros, quando essas informações forem essenciais para o processo de entrega e cobrança. Seus dados pessoais são fundamentais para que seu pedido chegue em segurança.</p>
     <p>Utilizamos cookies e informações de sua navegação para traçar um perfil do público que visita o site e aprimorar nossos serviços, produtos e conteúdos, conforme regulamentado pela Lei Geral de Proteção de Dados (LGPD). Durante todo esse processo, mantemos suas informações em sigilo absoluto.</p>
