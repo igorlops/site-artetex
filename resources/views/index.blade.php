@@ -25,7 +25,7 @@
         @include('novidades.index')
     </div>
 
-    <div id="contato">
+    {{-- <div id="contato">
         @include('contato.index')
-    </div>
+    </div> --}}
 @endsection

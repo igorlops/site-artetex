@@ -31,7 +31,7 @@
                 <div class="d-flex flex-column">
                     <span><i class="bi bi-whatsapp"></i> Fale pelo WhatsApp:</span>
                     <a style="text-decoration: none;color: white;text-decoration: underline"
-                        href="https://api.whatsapp.com/send?phone=5585988902070">(85) 99999-9999</a>
+                        href="https://api.whatsapp.com/send?phone=5585988902070">(85) 98890-2070</a>
                 </div>
             </div>
         </div>

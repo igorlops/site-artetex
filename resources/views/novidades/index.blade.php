@@ -16,9 +16,9 @@
             </div>
         </div>
     </div>
-    <div style="background-color: #f37542;padding: 50px 0">
+    <div style="background-color: #fff;padding: 50px 0">
         <div class="container">
-            <h2 class="titulo-sections text-center text-white mb-5">Veja a gente por dentro</h2>
+            <h2 class="titulo-sections text-center mb-5">Veja a gente por dentro</h2>
             <div class="videos-novidades">
                 <x-video-novidades urlVideo="https://www.youtube.com/embed/MjlmXu6I9y0?si=VtT5LqKjTZP0RGoN" textVideo="Video example"/>
                 <x-video-novidades urlVideo="https://www.youtube.com/embed/MjlmXu6I9y0?si=VtT5LqKjTZP0RGoN" textVideo="Video example"/>

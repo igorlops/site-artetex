@@ -91,7 +91,6 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         } else {
             carouselContent.innerHTML = generateCarouselHTML(dadosContent, 3);
-            carouselContent.innerHTML = generateCarouselHTML(dadosContent, 2);
             contentVideosYoutube.forEach((video) => {
                 video.style.width = '400px'
                 video.style.height = '200px'
@@ -119,23 +118,23 @@ function ativaMenu() {
 }
 
 
-function formatarNumeroCelular(input) {
-    // Remove todos os caracteres que não são números
-    let numeroLimpo = input.value.replace(/\D/g, '');
+// function formatarNumeroCelular(input) {
+//     // Remove todos os caracteres que não são números
+//     let numeroLimpo = input.value.replace(/\D/g, '');
 
-    // Limita o número de dígitos a 11
-    if (numeroLimpo.length > 11) {
-        numeroLimpo = numeroLimpo.slice(0, 11);
-    }
+//     // Limita o número de dígitos a 11
+//     if (numeroLimpo.length > 11) {
+//         numeroLimpo = numeroLimpo.slice(0, 11);
+//     }
 
-    // Verifica se o número possui um formato de celular com DDD
-    if (numeroLimpo.length >= 11) {
-        numeroLimpo = numeroLimpo.replace(/^(\d{2})(\d{5})(\d{4})$/, '($1) $2-$3');
-    } else {
-        // Formato para números sem DDD
-        numeroLimpo = numeroLimpo.replace(/^(\d{5})(\d{4})$/, '$1-$2');
-    }
+//     // Verifica se o número possui um formato de celular com DDD
+//     if (numeroLimpo.length >= 11) {
+//         numeroLimpo = numeroLimpo.replace(/^(\d{2})(\d{5})(\d{4})$/, '($1) $2-$3');
+//     } else {
+//         // Formato para números sem DDD
+//         numeroLimpo = numeroLimpo.replace(/^(\d{5})(\d{4})$/, '$1-$2');
+//     }
 
-    // Atualiza o valor do input com o número formatado
-    input.value = numeroLimpo;
-}
+//     // Atualiza o valor do input com o número formatado
+//     input.value = numeroLimpo;
+// }
