@@ -20,7 +20,7 @@
         @yield('content')
     </section>
     <div class="btn-float-whatsapp">
-        <a href="https://api.whatsapp.com/send?phone=85988902070"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://api.whatsapp.com/send?phone=+5585988902070"><i class="bi bi-whatsapp"></i></a>
     </div>
     @include('rodape')
 
