@@ -18,7 +18,7 @@
                     </div>
                     <div class="form-group mb-3">
                         <label for="telefone">Telefone:</label>
-                        <input type="text" class="form-control" id="telefone" name="telefone" required placeholder="Digite seu telefone">
+                        <input type="text" class="form-control" id="telefone" name="telefone" oninput="formatarNumeroCelular(this)" required placeholder="Digite seu telefone">
                     </div>
                     <div class="form-group">
                         <label for="mensagem">Mensagem:</label>
