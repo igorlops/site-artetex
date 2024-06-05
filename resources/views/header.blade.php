@@ -24,9 +24,6 @@
                     <a class="nav-link" href="#tecidos">Tecidos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#contato">Contato</a>
-                </li>
-                <li class="nav-item">
                     <div class="gap-3 pt-2 d-flex icons-socials-nav">
                         <a href="https://www.instagram.com/artetexestamparia/"><i class="bi bi-instagram"></i></a>
                         <a href="https://api.whatsapp.com/send?phone=5585988902070"><i class="bi bi-whatsapp"></i></a>
@@ -62,9 +59,6 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" onclick="ativaMenu()" href="#tecidos">Tecidos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" onclick="ativaMenu()" href="#contato">Contato</a>
             </li>
             <li class="nav-item">
                 <div class="gap-3 pt-2 d-flex icons-socials-nav">
